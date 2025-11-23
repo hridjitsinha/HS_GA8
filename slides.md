@@ -6,20 +6,16 @@ footer: '23f2004319@ds.study.iitm.ac.in'
 style: |
   section {
     background-color: #ffffff;
-    color: #2d2d2d;
-    padding: 30px;
+    color: #333;
   }
-  h1, h2, h3 {
-    color: #0055aa;
-    font-weight: 700;
-  }
-  code {
-    font-size: 0.9em;
+  h1 {
+    color: #0066cc;
   }
 ---
 
-# API Documentation  
-A straightforward guide to understanding and using our REST API.
+# API Documentation
+
+Simple Product Documentation Guide
 
 **Contact**: 23f2004319@ds.study.iitm.ac.in
 
@@ -27,14 +23,57 @@ A straightforward guide to understanding and using our REST API.
 
 ## Getting Started
 
-This guide walks through the essentials of our API with simple, clear examples so you can plug in and build quickly.
+This documentation covers our REST API with simple examples.
 
 ---
 
 ## Authentication
 
-Send your API key in the request header:
+Use API key in header:
 
 ```bash
 curl -H "Authorization: Bearer YOUR_KEY" \
-     https://api.example.com/data
+  https://api.example.com/data
+```
+
+---
+
+<!-- _backgroundImage: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200') -->
+<!-- _color: white -->
+
+# Core Features
+
+- Fast performance
+- Easy integration
+- Secure by default
+
+---
+
+## Performance
+
+### Time Complexity
+
+Search operations: $O(\log n)$
+
+### Upload Formula
+
+$$
+\text{OptimalChunks} = \frac{\text{FileSize}}{4MB}
+$$
+
+---
+
+## Error Codes
+
+| Code | Meaning |
+|------|---------|
+| 200 | Success |
+| 400 | Bad Request |
+| 401 | Unauthorized |
+| 404 | Not Found |
+
+---
+
+# Thank You
+
+Questions? Contact: 23f2004319@ds.study.iitm.ac.in
