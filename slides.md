@@ -38,7 +38,8 @@ curl -H "Authorization: Bearer YOUR_KEY" \
 
 ---
 
-backgroundImage: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200')
+<!-- backgroundImage: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200') -->
+<!-- _color: white -->
 
 # Core Features
 
@@ -74,4 +75,3 @@ Optimal chunks equals file size divided by 4MB
 # Thank You
 
 Questions? Contact: 23f2004319@ds.study.iitm.ac.in
-
