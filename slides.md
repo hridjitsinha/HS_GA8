@@ -38,7 +38,7 @@ curl -H "Authorization: Bearer YOUR_KEY" \
 
 ---
 
-<!-- _backgroundImage: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200') -->
+<!-- backgroundImage: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200') -->
 <!-- _color: white -->
 
 # Core Features
@@ -53,13 +53,11 @@ curl -H "Authorization: Bearer YOUR_KEY" \
 
 ### Time Complexity
 
-Search operations: $O(\log n)$
+Search operations: $O(log n)$
 
 ### Upload Formula
 
-$$
-\text{OptimalChunks} = \frac{\text{FileSize}}{4MB}
-$$
+Optimal chunks equals file size divided by 4MB
 
 ---
 
